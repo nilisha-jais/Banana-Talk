@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-image: url("minion.jpg");
+  }
+  .text-center {
+    text-align: center;
+  }
+  textarea {
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 800px;
+    width: 60%;
+    height: 30vh;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  .heading {
+    color:black;
+    margin: 2rem;
+  }
+  .div1{
+    height: 140px;
+    width:100%;
+    background-color:#fde263;
+    color: #2b3037;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+  #btn-translate {
+      border: none;
+    padding: 0.8rem 1.3rem;
+    background-color: black;
+    border-radius: 5px;
+    outline: none;
+    color:#fde263;
+    display: block;
+    margin: auto;
+    font-size: large;
+  }
+  footer {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-top: 20px;
+  }
+  @media only screen and (max-width: 600px) {
+    .div1{height:240px; }
+  }
